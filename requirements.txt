@@ -1,0 +1,20 @@
+# =============================================================================
+# Football Object Detection - Streamlit App Dependencies
+# Compatible with Python 3.12.12
+# =============================================================================
+
+# Streamlit framework for the web application UI
+streamlit>=1.35.0
+
+# Ultralytics YOLO for object detection inference (YOLO11 support)
+ultralytics>=8.2.0
+
+# OpenCV headless build — avoids GUI/display dependencies on cloud servers
+# IMPORTANT: Use 'headless' variant to prevent libGL import errors on Linux
+opencv-python-headless>=4.9.0.80
+
+# Pillow for image handling and format conversion
+Pillow>=10.2.0
+
+# NumPy >= 1.26.0 is required for Python 3.12 (C-API compatibility)
+numpy>=1.26.0

@@ -1,0 +1,7 @@
+# =============================================================================
+# Linux system-level packages for Streamlit Cloud
+# Required by OpenCV and other native libraries to prevent import crashes
+# =============================================================================
+freeglut3-dev
+libgl1-mesa-glx
+libglib2.0-0
